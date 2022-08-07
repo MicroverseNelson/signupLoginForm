@@ -66,6 +66,7 @@ main {
     height:250px;
     background: hsl(0deg 0% 90%);
     box-shadow: 0 10px 8px 0 #888888;
+    padding-top: 12px;
 }
 
 input {
