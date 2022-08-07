@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+.left {
+    background-image: url("./loginform.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.4;
+    width: 400px;
+    height: 500px;
+}
+
+.left .left-text {
+    background: black;
+    width:100px;
+    height: 80px;
+    color: #fff;
+    width: 100%;
+    margin-top: 200px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.left .left-text h2{
+    padding-top: 22px;
+    font-size: 36px;
+}
+
+.left .left-text  img {
+    width: 42px;
+    height: 42px;
+}
+
+.right {
+    background: #fff;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    padding: 14px;
+    height: 500px;
+}
+
+.right .form {
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    width: 100%;
+    height:250px;
+    background: hsl(0deg 0% 90%);
+    box-shadow: 0 10px 8px 0 #888888;
+}
+
+input {
+    padding:12px;
+    border-radius: 5px;
+    border:1px solid #808080;
+    color: black;
+    width: 230px;
+    margin-left: 3px;
+}
+
+input:focus {
+    
+    outline: none;
+    box-shadow: 10px 10px 8px #808080;
+}
+
+.btn_section {
+    width: 100vw;
+    height: 100px;
+}
+
+.btn_section button {
+    width: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #596D48;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.btn_section span {
+    color:#596D48;
+    font-weight: bold;
+    
+}
